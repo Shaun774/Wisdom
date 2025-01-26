@@ -1,0 +1,91 @@
+/* h3 {
+    font-size: 38px;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.slip {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(90, 90, 90);
+    font-size: 24px;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(29, 29, 29);
+}
+
+.letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+    margin-top: 84px;
+}
+
+.letter:before,
+.letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.letter:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+}
+
+.letter:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+}
+
+.btn{
+    background: rgb(247, 247, 247);
+    font-size: 24px;
+    font-family: "Courier Prime", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(29, 29, 29);
+    border-radius: 25px;
+    border: 3px solid;
+    padding: 16px;
+}
+
+.btn:hover{
+    background: #474747;
+    color: #fafafa;
+    transition: 0.1s ease-in;
+}
+
+.button{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
